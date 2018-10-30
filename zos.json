@@ -2,14 +2,10 @@
   "name": "cztoken",
   "version": "0.1.0",
   "contracts": {
-    "CZToken": "CZToken",
-    "BasicToken": "BasicToken",
-    "BurnableToken": "BurnableToken",
-    "Migratable": "Migratable",
-    "Ownable": "Ownable",
-    "Pausable": "Pausable",
-    "PausableToken": "PausableToken",
-    "SafeMath": "SafeMath",
-    "StandardToken": "StandardToken"
+    "CZToken": "CZToken"
+  },
+  "stdlib": {
+    "name": "openzeppelin-zos",
+    "version": "^1.9.4"
   }
 }
